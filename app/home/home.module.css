@@ -1,0 +1,119 @@
+/* Extra small devices (phones, 600px and down) */ 
+@media only screen and (max-width: 600px) {
+    .backgroundShape{
+        position: fixed;
+        margin-inline: 3% !important;
+        margin-top: 50px !important;
+        z-index: -3;
+        top: 12%;
+        left : 16%;
+        /* margin-bottom: 100px !important;
+         */
+        width: 61%;
+        /* height: 346px ; */
+    
+    }
+
+    .backgroundShape svg {
+        stroke-opacity: 0.9 ;
+    }
+    
+    .backgroundDiv{    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-content: space-around; */
+        position: relative;
+        margin-top: 50px ;
+    }
+    
+    .backgroundImage{
+        padding-top: 25%;
+        padding-inline: 25%;
+        position: relative;
+        max-width: 550px ;
+        max-height: 700px;
+        min-width: 400px;
+        min-height: 200px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .backgroundShape{
+        position: fixed;
+        margin-inline: 3% !important;
+        margin-top: 50px !important;
+        z-index: -3;
+        top: 12%;
+        left : 16%;
+        /* margin-bottom: 100px !important;
+         */
+        width: 61%;
+        /* height: 346px ; */
+    
+    }
+
+    .backgroundShape svg {
+        stroke-opacity: 0.9 ;
+    }
+    
+    .backgroundDiv{    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-content: space-around; */
+        position: relative;
+        margin-top: 50px ;
+    }
+    
+    .backgroundImage{
+        padding-top: 25%;
+        padding-inline: 25%;
+        position: relative;
+        max-width: 550px ;
+        max-height: 700px;
+        min-width: 400px;
+        min-height: 200px;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .backgroundShape{
+        position: fixed;
+        margin-inline: 3% !important;
+        margin-top: 50px !important;
+        z-index: -3;
+        top: 20%;
+        left : 19%;
+        /* margin-bottom: 100px !important;
+         */
+        width: 56%;
+        /* height: 346px ; */
+    
+    }
+    
+    .backgroundDiv{    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-content: space-around; */
+        position: relative;
+        margin-top: 50px ;
+    }
+    
+    .backgroundImage{
+        padding-top: 25%;
+        padding-inline: 25%;
+        position: relative;
+        max-width: 550px ;
+        max-height: 700px;
+        min-width: 400px;
+        min-height: 200px;
+    }
+}

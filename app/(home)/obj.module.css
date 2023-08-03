@@ -1,0 +1,602 @@
+
+.header {
+    display: flex;
+    width: 1843.188px;
+    height: 69.9px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    border: 0.5px solid rgba(255, 255, 255, 0.20);
+    /* margin-inline: 38.8px; */
+    margin-top: 28px;
+}
+
+.firstHeaderCol {
+    display: flex;
+    padding-right: 0px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border: 0.5px solid rgba(255, 255, 255, 0.20);
+    /* padding: 0.5px; */
+
+    height: 100%;
+}
+
+.home {
+    opacity: 0.5;
+}
+
+
+.homesvg:hover {
+    fill: #00FFE6 !important;
+}
+
+.frost {
+    width: 100%;
+    height: 100%;
+    right : 0px;
+    fill: rgba(255, 255, 255, 0.10);
+}
+.frostColored {
+    fill: #00FFE6;
+}
+.ddbtn{
+    stroke-width: 0.5px;
+    stroke: rgba(255, 255, 255, 0.50);
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    align-self: center;
+    
+}
+
+.ddbtn div {
+  padding-inline: 10px;
+}
+.ddoptions .ddcover {
+    /* width: 100%; */
+    
+    flex : 1 0 0 ;
+    border-right : 0.1px solid rgba(255, 255, 255, 0.20);   
+}
+
+.ddoptions .ddcover .ddtext{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: last baseline;
+    padding-bottom : 5px;
+}
+
+.ddoptions .ddcover .ddicon{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: last baseline;
+    /* padding-bottom : 5px; */
+}
+
+.ddoptions .ddcover small {
+    font-size: 10px;
+    padding-left: 4px;
+}
+
+
+
+
+.bottomDiv{
+    position: relative;
+}
+
+
+.ddicon {
+    opacity: 0.8;
+}
+
+
+.optionFrame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    gap: 12px;
+}
+
+.boxParent {
+    display: flex;
+    font-size: 16px;
+    opacity: 0.6;
+}
+.box {
+    width: 3px;
+    height: 23px;
+    background: #FFFFFF;
+    margin-right: 3px;
+}
+.box2 {
+    width: 1px;
+    height: 23px;
+    background: #FFFFFF;
+    margin-right: 6px;
+}
+
+.boxParent:hover{
+    color: #00FFE6;
+    opacity: 1;
+}
+
+.boxParent:hover .box {
+    background: #00FFE6;
+} 
+
+.boxParent:hover .box2 {
+    background: #00FFE6;
+}
+
+.margin {
+    height: 80vh;
+}
+
+.bottomDiv{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center ;
+
+}
+.bottomdivlines {
+    padding-top:10px ;
+    padding-right: 10px;
+}
+
+
+.bottomdivtext{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Terminus;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 141.2%; /* 28.24px */
+}
+
+
+.immersivesvg{
+    -webkit-mask-image: url(/images/immersive.svg);
+    mask-image: url(/images/immersive.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+} 
+
+.metasvg{
+    -webkit-mask-image: url(/images/meta.svg);
+    mask-image: url(/images/meta.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+} 
+
+.constructSvg {
+    -webkit-mask-image: url(/images/construct.svg);
+    mask-image: url(/images/construct.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+} 
+
+/* Extra small devices (phones, 600px and down) */ 
+@media only screen and (max-width: 600px) {
+    .firstHeaderCol { /*  this is the header and the green and blackbox  */
+        max-width: 80% !important;
+    }
+    .header, .margin{
+        margin-inline: 18.8px;
+    }
+    
+    .frostColored {
+        width: 70%;
+    }
+    .ddoptions {
+        flex-flow: column;
+        position: fixed;
+        z-index: 2;
+        right: 0px;
+        top : 98px;
+        width: 90.6%;
+        padding-bottom: 30px;
+        border: 0.3px solid rgba(255, 255, 255, 0.20);
+        margin-inline: 18.8px;
+         display : none; /*to hide the dropdown */
+    }
+    .secondHeaderCol{
+        width: 20%;
+        display: flex;
+        align-items: flex-start;
+        /* flex: 1 0 0; */
+        color: rgba(255, 255, 255, 0.7);
+    } 
+
+    .ddbtn div{
+        margin-top: 25px;
+    }
+    .ddoptions .ddcover {
+        height: 40px;
+
+    }
+    .ddoptions .ddcover .ddicon {
+        flex : 1 0 0 !important;
+    }
+
+    .ddoptions .ddcover .ddtext:hover{
+        color: #00FFE6;
+        opacity: 1;
+    }
+    .ddoptions .ddcover .ddicon:hover {
+        background-color: #00FFE6;
+        opacity: 1;
+    }
+
+    .ddoptions .ddcover .ddtext, .ddoptions .ddcover .ddicon {
+        border : none;
+    }
+    .optionFrame{
+        margin-top: 7%;
+    }
+    .bottomdivtext{
+        font-size: 12px;
+    }
+    .bottomdivtext br{
+        display: none;
+    } 
+
+    .immersiveDiv{
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        /* padding-left: 42px; */
+        padding-top: 270px;
+    }
+
+    .immersive{
+        padding-left: 14px;
+        display: block;
+        padding-top: 3px;
+    }
+
+    .immersivesvg{
+        width: 250px;
+        height: 60px;
+    } 
+    .metaDiv{
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        padding-left: 42px;
+        padding-top: 0px;
+    }
+    .meta{
+        padding-left: 14px;
+        display: block;
+        padding-top: 3px;
+    }
+    .metasvg{
+        width: 250px;
+        height: 60px;
+    } 
+
+    .unionsvg{
+        max-width: 227px;
+        max-height:299px ;
+        min-width: 207px;
+        min-height: 259px ;
+    } 
+    .union{
+        position: fixed;
+        /* top :-1000px; */
+        z-index: 10;
+        top : 140px;
+        right: 20px;
+    }
+
+    .constructSvg{
+        width: 490px;
+        height: 450px;
+        opacity: 0.6;
+        /* background-color: black; */
+    }
+    .constructDiv {
+        position: fixed;
+        left : -20%;
+        top : 270px;
+        z-index: -2;
+    }
+    .blur{
+        width: 162px;
+        height: 162px;
+        position: fixed;
+        left: 10%;
+        top : 45%;
+        flex-shrink: 0;
+
+        border-radius: 362px;
+        background: #00FFE6;
+        mix-blend-mode: overlay;
+        filter: blur(48px);
+    }
+
+    .blurCircle {
+        background: #00FFE6;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        z-index: -3;
+        
+        left: 32.5%;
+        top : 48%;
+        opacity: 0.1; 
+        box-shadow: 0px 0px 40px 20px #0ff;
+    }
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .firstHeaderCol { /*  this is the header and the green and blackbox  */
+        max-width: 40%;
+    }
+    .header, .margin{
+        margin-inline: 38.8px;
+    }
+    .frostColored {
+        width: 45%;
+    }
+    .ddoptions {
+        width: 82%;
+        height: 68.9px;
+        display: flex;
+
+    }
+    .secondHeaderCol{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex: 1 0 0;
+        color: rgba(255, 255, 255, 0.7);
+    } 
+    .ddoptions .ddcover {
+        width: 15%;
+        height: 68.9px;
+    }
+
+    .optionFrame{
+        margin-top: 5%;
+    }
+    .bottomDiv{
+        position: fixed;
+        bottom: 25px;
+        left: 28px;
+    }
+
+
+
+    .immersiveDiv{
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        padding-left: 42px;
+        padding-top: 370px;
+    }
+
+    .immersive{
+        padding-left: 14px;
+        display: block;
+        padding-top: 60px;
+    }
+
+    .immersivesvg{
+        width: 300px;
+        height: 80px;
+    } 
+    .metaDiv{
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        padding-left: 132px;
+        padding-top: 0px;
+    }
+    .meta{
+        padding-left: 14px;
+        display: block;
+        padding-top: 3px;
+    }
+    .metasvg{
+        width: 300px;
+        height: 120px;
+    } 
+
+    .unionsvg{
+        max-width: 457px;
+        max-height:519px ;
+        min-width: 357px;
+        min-height: 419px ;
+    } 
+    .union{
+        position: fixed;
+        /* top :-1000px; */
+        z-index: 10;
+        top : 190px;
+        right: 40px;
+    }
+    .constructSvg{
+        width: 790px;
+        height: 750px;
+        opacity: 0.6;
+        /* background-color: black; */
+    }
+    .constructDiv {
+        position: fixed;
+        left : -10%;
+        top : 270px;
+        z-index: -2;
+    }
+    .blur{
+        width: 262px;
+        height: 262px;
+        position: fixed;
+        left: 23%;
+        top : 45%;
+        flex-shrink: 0;
+
+        border-radius: 362px;
+        background: #00FFE6;
+        mix-blend-mode: overlay;
+        filter: blur(48px);
+    }
+
+    .blurCircle {
+        background: #00FFE6;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        z-index: -3;
+        
+        left: 33.5%;
+        top : 49%;
+        opacity: 0.1;
+        box-shadow: 0px 0px 40px 20px #0ff;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+    .firstHeaderCol { /*  this is the header and the green and blackbox  
+        max-width: 40%;
+    }
+} */
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .firstHeaderCol { /*  this is the header and the green and blackbox  */
+        max-width: 40%;
+    }
+    .header, .margin{
+        margin-inline: 38.8px;
+    }
+    .frostColored {
+        width: 30%;
+    }
+    .ddoptions {
+        width: 92%;
+        height: 68.9px;
+        /* border: 0.3px solid rgba(255, 255, 255, 0.20);
+        border-bottom:  0.3px solid rgba(255, 255, 255, 0.05); */
+
+    }
+    .ddoptions .ddcover {
+        width: 20%;
+    }
+    .secondHeaderCol{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex: 1 0 0;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+
+
+    .immersiveDiv{
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        padding-left: 162px;
+        padding-top: 20px;
+    }
+
+    .immersive{
+        padding-left: 14px;
+        display: block;
+        padding-top: 3px;
+    }
+
+    .immersivesvg{
+        width: 500px;
+        height: 120px;
+    } 
+    .metaDiv{
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        padding-left: 352px;
+        padding-top: 10px;
+    }
+    .meta{
+        padding-left: 14px;
+        display: block;
+        padding-top: 3px;
+    }
+    .metasvg{
+        width: 500px;
+        height: 120px;
+    } 
+
+    .unionsvg{
+        max-width: 457px;
+        max-height:519px ;
+        min-width: 357px;
+        min-height: 419px ;
+    } 
+
+
+    .union{
+        position: fixed;
+        z-index: 10;
+        top : 190px;
+        right: 40px;
+    }
+    .constructSvg{
+        width: 790px;
+        height: 750px;
+        opacity: 0.6;
+        /* background-color: black; */
+    }
+    .constructDiv {
+        position: fixed;
+        left : 22%;
+        top : 20px;
+        z-index: -2;
+    }
+    .blur{
+        width: 262px;
+        height: 262px;
+        position: fixed;
+        left: 37.5%;
+        top : 120px;
+        flex-shrink: 0;
+
+        border-radius: 362px;
+        background: #00FFE6;
+        mix-blend-mode: overlay;
+        filter: blur(48px);
+    }
+
+    .blurCircle {
+        background: #00FFE6;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        z-index: -3;
+        
+        left: 43.5%;
+        top : 250px;
+        opacity: 0.1;
+        box-shadow: 0px 0px 40px 20px #0ff;
+    }
+
+}
+
+/* for the dots  */
+
